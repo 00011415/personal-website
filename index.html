@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/section-1.css">
+    <link rel="stylesheet" href="./css/loader.css">
+    <link rel="stylesheet" href="./css/section-2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <script src="https://kit.fontawesome.com/7d66f8227d.js" crossorigin="anonymous"></script>
+    <title>N-tech</title>
+</head>
+
+<body>
+
+    <!-- sroll bar -->
+    <div id="progressbar"></div>
+    <div id="scrollPath"></div>
+
+    <!--Preloader  -->
+    <div class="preloader">
+        <div class="loader"></div>
+    </div>
+
+    <!-- hidden infos modal1 -->
+    <div class="hiddenInfo1">
+        <div class="hiddenInfoWrapper">
+            <i class="far fa-times-circle hiddenIcon1"></i>
+            <p>
+                This website was created to fulfill Web Technology module’s requirements and does not represent an actual company or service
+            </p>
+            <div class="task">
+                <h1>Task</h1>
+                <h4 class="task-span">
+                    This is individual coursework. You need to create the front-end (presentation layer) of the website chosen from the list below. You can choose a company/organization/direction for which you will create a front-end of the website from the following list:
+                </h4>
+                <ul>
+                    <li>Apparel e-commerce </li>
+                    <li>Online courses</li>
+                    <li>Pet pharmacy </li>
+                    <li>IT Freelance</li>
+                    <li>Payment system (i.e. Payme or Click)</li>
+                    <li>Online accommodation booking (i.e. Booking.com, Airbnb)</li>
+                    <li>Healthcare (i.e. hospital website) </li>
+                    <li>Fitness training</li>
+                    <li>Real estate</li>
+                    <li>Personal website (i.e. developer’s portfolio)</li>
+                    <li>Digital technologies (i.e. AI, blockchain, security)</li>
+                    <li>Travel blog</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- hidden image modal2 -->
+    <div id="modalImageWrapper" class="modalImageWrapper">
+        <span class="closeModal closeBtn">&times;</span>
+        <img class="modalImage" id="img01">
+    </div>
+
+    <!-- Header -->
+    <header id="mainHeader">
+        <div id="headerLogo">
+            <i class="fab fa-phoenix-framework" aria-hidden="true"></i>
+            <h1> <span>N</span>-Tech </h1>
+        </div>
+        <nav>
+            <ul id="headerListItems">
+                <li class="listItems">
+                    <a href="#" style="color:goldenrod">Main info</a>
+                </li>
+                <li class="listItems">
+                    <a href="./pages/aboutMe.html">About Me</a>
+                </li>
+                <li class="listItems">
+                    <a href="#portfolio">Portfolio</a>
+                </li>
+                <li class="listItems">
+                    <a href="./pages/service.html">Services</a>
+                </li>
+                <li class="listItems">
+                    <a href="./pages/contact.html">Contacts</a>
+                </li>
+            </ul>
+        </nav>
+        <div id="headerPhoneNumber">
+            <i class="fas fa-phone-volume" aria-hidden="true"></i>
+            <p>93 000 00 00</p>
+        </div>
+        <div id="menuBar">
+            <i class="fas fa-bars menuIcon" aria-hidden="true"></i>
+        </div>
+    </header>
+
+    <!-- Section-1  -->
+    <section id="section-1">
+        <div id="section-1-left">
+            <span id="circle"></span>
+            <div id="mySelfInfo">
+                <h1>Frontend Developer</h1>
+                <p>This website was created to fulfill Web Technology module’s requirements and does not represent an actual company or service</p>
+                <p><i>Developed by <span id="decoration">Nodirbek</span></i></p>
+                <button id="readMoreBtn" class="getMoreInfo1">Read More</button>
+            </div>
+        </div>
+        <div id="section-1-right">
+        </div>
+    </section>
+    <!-- Section-2 -->
+    <section class="portfolio-section" id="portfolio">
+        <h1 class="portfolio-section__h1">Portfolio</h1>
+        <div class="portfolio-images">
+            <div class="portfolio-image-wrapper">
+                <div class="portfolio-image">
+                    <img src="images/work-1.jpg" alt="image" id="myImg">
+                </div>
+            </div>
+            <div class="portfolio-image-wrapper">
+                <div class="portfolio-image">
+                    <img src="images/work-2.jpg" alt="image">
+                </div>
+            </div>
+            <div class="portfolio-image-wrapper">
+                <div class="portfolio-image">
+                    <img src="images/work-3.jpg" alt="image">
+                </div>
+            </div>
+            <div class="portfolio-image-wrapper">
+                <div class="portfolio-image">
+                    <img src="images/work-4.jpg" alt="image">
+                </div>
+            </div>
+            <div class="portfolio-image-wrapper">
+                <div class="portfolio-image">
+                    <img src="images/work-5.jpg" alt="image">
+                </div>
+            </div>
+            <div class="portfolio-image-wrapper">
+                <div class="portfolio-image">
+                    <img src="images/work-6.jpg" alt="image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div id="briefInfo">
+        <h1>Brief Information</h1>
+        <div class="briefInfo-wrappper">
+            <div class="briefInfo-items">
+                <div class="briefInfo-items-child">
+                    <span class="briefInfo-number">50</span>
+                    <span class="briefInfo-names">projects</span>
+                </div>
+            </div>
+            <div class="briefInfo-items">
+                <div class="briefInfo-items-child">
+                    <span class="briefInfo-number">100</span>
+                    <span class="briefInfo-names">clients</span>
+                </div>
+            </div>
+            <div class="briefInfo-items">
+                <div class="briefInfo-items-child">
+                    <span class="briefInfo-number">5</span>
+                    <span class="briefInfo-names">workers</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--footer section-->
+    <footer>
+        <div class="wrapper-footer">
+            <div class="footer-icon">
+                <i class="fas fa-headset"></i>
+            </div>
+            <div class="items">
+                <h1>Need help?</h1>
+                <h3>contact us</h3>
+            </div>
+            <div class="wrapper-button">
+                <a href="./pages/price.html">
+                    <button type="button" class="footer-button">view costs</button>
+                </a>
+            </div>
+        </div>
+
+
+
+        <div class="wrapper-footer__2">
+
+            <div class="wrapper-footer__paragraph">
+                <i class="fab fa-phoenix-framework footerIcon" aria-hidden="true"></i>
+
+                <p>
+                    Innovation for problem solving
+                    <br> tomorrow.</p>
+            </div>
+            <div class="wrapper-footer__info">
+                <p class="footer-info__paragraph0">Feel free to call</p>
+                <p class="footer-info__paragraph">93-000-00-00</p>
+                <p class="footer-info__paragraph0">Contact with our <br> manager</p>
+            </div>
+            <div class="wrapper-footer__last">
+                <p>Contact details</p> <br>
+                <div class="icon-paragraph">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p> Andijan region urganji <br> Oydin Buloq М.Ф.Й Navruz street 25 home</p> <br>
+                </div>
+                <div class="icon-phone__number">
+                    <i class="fas fa-mobile"></i>
+                    <p>93-000-00-00</p>
+                </div>
+                <div class="footer-icons">
+                    <div class="footer-icons__item">
+                        <i class="fab fa-google-plus-g"></i>
+                    </div>
+                    <div class="footer-icons__item">
+                        <i class="fab fa-facebook-f"></i>
+                    </div>
+                    <div class="footer-icons__item">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                    <div class="footer-icons__item">
+                        <i class="fab fa-twitter"></i>
+                    </div>
+                    <div class="footer-icons__item">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./scripts/main.js"></script>
+    <script src="./scripts/modal.js"></script>
+</body>
+
+</html>

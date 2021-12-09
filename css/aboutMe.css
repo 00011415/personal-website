@@ -1,0 +1,174 @@
+/*aboutus*/
+
+* {
+    box-sizing: border-box;
+}
+
+#aboutus-body {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url("https://i.gifer.com/91Vw.gif");
+    background-attachment: fixed;
+    width: 100%;
+}
+
+#myImage {
+    position: fixed;
+    opacity: 0.3;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: url(../images/personal9.jpg);
+    background-size: cover;
+    background-position: 0px 25%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    clip-path: circle(0px at center);
+}
+
+.wrapper-all__body {
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    font-family: "Palanquin Dark";
+    margin-top: 200vh;
+    padding-top: 50px;
+}
+
+.container-about {
+    max-width: 700px;
+    margin: 0% auto;
+    width: 100%;
+    color: #fff;
+}
+
+.aboutus-title {
+    text-align: center;
+    color: rgb(126, 126, 126);
+    margin: 0% auto;
+}
+
+.aboutus-paragraph1 {
+    margin-top: 20px;
+    color: gray;
+    text-align: justify;
+    padding: 5px;
+    font-size: 15px;
+}
+
+.iconss {
+    display: flex;
+    margin-top: 35px;
+    width: 100%;
+    justify-content: center;
+}
+
+.iconss>i {
+    margin: 0 25px;
+    font-size: 30px;
+    transition: 0.4s ease;
+    cursor: pointer;
+}
+
+.iconss>i:hover {
+    margin-top: -15px;
+}
+
+.container2-about {
+    color: white;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: 55px auto 0px;
+    align-items: center;
+}
+
+.about-left {
+    width: 45%;
+}
+
+.about-right>h3 {
+    letter-spacing: 1px;
+    color: #f7d7c8;
+    margin-bottom: 15px;
+}
+
+.about-right>p {
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+
+.chat {
+    display: flex;
+    margin-top: 25px;
+    font-size: 25px;
+    cursor: pointer;
+    transition: 0.5s ease-in;
+    padding-bottom: 25px;
+}
+
+.chat:hover {
+    color: #f7d7c8;
+}
+
+.chat>i {
+    margin-right: 15px;
+}
+
+.about-left>h1 {
+    font-size: 35px;
+    letter-spacing: 1px;
+    color: #f7d7c8;
+    margin-bottom: 15px;
+}
+
+.span-about {
+    display: block;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.about-right {
+    width: 45%;
+}
+
+@media (min-width:0px) and (max-width:900px) {
+    #aboutus-body {
+        background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://i.pinimg.com/originals/b9/e3/9f/b9e39f0a62072527e85c6a19f751091d.gif");
+        background-attachment: fixed;
+        width: 100%;
+        background-repeat: no-repeat;
+        object-fit: cover;
+        background-size: cover;
+        background-position: center center;
+    }
+    #myImage {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background: url(../images/personal6.jpg);
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+        clip-path: circle(0px at center);
+    }
+    .container-about {
+        padding: 15px;
+    }
+    .container2-about {
+        padding: 15px;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        max-width: 700px;
+    }
+    .about-left,
+    .about-right {
+        width: 100%;
+    }
+    .s {
+        padding-bottom: 35px;
+    }
+}

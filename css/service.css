@@ -1,0 +1,77 @@
+.wrapper-myworks {
+    display: flex;
+    width: 85%;
+    flex-wrap: wrap;
+    margin: 25px auto;
+    justify-content: center;
+    font-family: sans-serif;
+    box-shadow: 4px 9px 32px 0px rgba(34, 60, 80, 0.2);
+    background-image: url(../images/background.jpg);
+    line-height: 1.5;
+}
+
+.myworks {
+    width: 33.333333333%;
+    height: 450px;
+    background-color: white;
+    transition: all 0.4s ease 0s, opacity 2s cubic-bezier(0.5, 0, 0, 1) 0s, transform 2s cubic-bezier(0.5, 0, 0, 1) 0s;
+    ;
+    cursor: pointer;
+    padding-bottom: 55px;
+}
+
+.myworks:hover {
+    background-color: #ffef0f;
+    margin-top: -15px;
+}
+
+.mywork-separately {
+    padding: 45px;
+}
+
+.mywork-separately i {
+    font-size: 80px;
+    box-sizing: border-box;
+}
+
+.mywork-separately h3 {
+    font-size: 20px;
+}
+
+.mywork-separately span {
+    font-size: 20px;
+    color: grey;
+}
+
+.mywork-separately:hover span {
+    color: black;
+}
+
+@media (max-width:767px) {
+    .wrapper-myworks {
+        flex-direction: column;
+        max-width: 400px;
+    }
+    .myworks {
+        max-width: 400px;
+        width: 100%;
+        padding-bottom: 15px;
+    }
+    .mywork-separately {
+        padding: 30px;
+    }
+    .myworks:hover {
+        background-color: #ffef0f;
+        margin-top: -15px;
+    }
+}
+
+@media (min-width:768px) and (max-width:1200px) {
+    .wrapper-myworks {
+        flex-wrap: wrap;
+    }
+    .myworks {
+        width: 50%;
+        padding-bottom: 55px;
+    }
+}
